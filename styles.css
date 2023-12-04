@@ -1,32 +1,36 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: #1f1f1f;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 2em;
+}
+
+.header-logo {
+    width: 100px; /* Adjust the width as needed */
 }
 
 .main-content {
     max-width: 800px;
     margin: 2em auto;
-    padding: 1em;
+    padding: 2em;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
+.footer-logo {
+    width: 50px; /* Adjust the width as needed */
+}
+
+.footer {
     text-align: center;
-    padding: 1em;
-    background-color: #333;
+    padding: 2em;
+    background-color: #1f1f1f;
     color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
